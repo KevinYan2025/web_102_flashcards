@@ -2,5 +2,11 @@ body {
   background-image: url('https://www.chinadiscovery.com/assets/images/Train/bullet-train-skye-beijing-820.jpg'); 
   background-size: cover;
   background-repeat: no-repeat; 
-
+  background-attachment: fixed; /* This keeps the background fixed while scrolling */
+  margin: 0; /* Remove default margin to ensure the image covers the whole screen */
+  padding: 0; /* Remove any padding */
+  height: 100vh; /* Set the height of the body to 100% of the viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
